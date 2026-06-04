@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nowrap vs wrap</title>
+</head>
+<style>
+  h1 {
+    color: aliceblue;
+    background: gray;
+    text-align: center;
+  }
+  .container-1 {
+    display: flex;
+    gap: 15px;
+  }
+
+  .container-2 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 80px;
+    height: 80px;
+    background: orange;
+  }
+</style>
+<body>
+  <h1>nowrap</h1>
+  <div class="container-1">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  <h1>wrap</h1>
+  <div class="container-2">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+</html>
