@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.box {
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: lightblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
