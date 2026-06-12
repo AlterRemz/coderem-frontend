@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    background: gray;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    background: white;
+}
+
+/* pake margin */
+.margin-box .box {
+    margin-right: 10px;
+}
+
+/* pake gap */
+.gap-box {
+    gap: 10px;
+}
